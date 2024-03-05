@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:21:10 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUhDQlVUUkI7MjAyNC0wMy0wNDswOTo1NzozMyBQTTszMzgz"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUhDQlVUUkI7MjAyNC0wMy0wNDsxMDoyMToxMCBQTTszOzM0NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radius, pie, area, peri" type="Real" array="False" size=""/>
+            <assign variable="pie" expression="3.174"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="((radius*radius)*pie)"/>
+            <assign variable="peri" expression="((pie*2)*radius)"/>
+            <output expression="&quot;The area of the circle is&quot; &amp;area" newline="False"/>
+            <output expression="&quot;the perimiter of the circle is&quot; &amp;peri" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

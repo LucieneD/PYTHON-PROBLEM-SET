@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-28 07:48:41 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA3SDhPQkU7MjAyNC0wMi0yODswNzo0NTozNSBQTTszMzA4"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA3SDhPQkU7MjAyNC0wMi0yODswNzo0ODo0MSBQTTsxOzM0MTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="last" type="String" array="False" size=""/>
+            <declare name="midterm, final, total" type="Integer" array="False" size=""/>
+            <input variable="last"/>
+            <input variable="midterm"/>
+            <input variable="final"/>
+            <assign variable="total" expression="midterm+final"/>
+            <output expression="&quot;hello&quot; &amp;last" newline="True"/>
+            <output expression="&quot;your total exam points are&quot; &amp;total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

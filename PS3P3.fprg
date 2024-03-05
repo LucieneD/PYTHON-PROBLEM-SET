@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-28 08:23:11 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA3SDhPQkU7MjAyNC0wMi0yODswNzo0ODo0NSBQTTszMzEy"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA3SDhPQkU7MjAyNC0wMi0yODswODoyMzoxMSBQTTsxOzM0MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Name1, name2, name3" type="String" array="False" size=""/>
+            <declare name="pay, earned" type="Real" array="False" size=""/>
+            <input variable="name1"/>
+            <input variable="name2"/>
+            <input variable="name3"/>
+            <input variable="earned"/>
+            <assign variable="pay" expression="earned/3"/>
+            <output expression="name1&amp; &quot;your pay is&quot; &amp;pay" newline="True"/>
+            <output expression="name2&amp; &quot;your pay is&quot; &amp;pay" newline="True"/>
+            <output expression="name3&amp; &quot;your pay is&quot; &amp;pay" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

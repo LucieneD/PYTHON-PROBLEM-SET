@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-28 07:41:58 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA3SDhPQkU7MjAyNC0wMi0yODswNzoxMjoyMyBQTTszMjk5"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTA3SDhPQkU7MjAyNC0wMi0yODswNzo0MTo1OCBQTTsyOzM0MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ticker" type="String" array="False" size=""/>
+            <declare name="share, cost, amtinvested" type="Integer" array="False" size=""/>
+            <input variable="ticker"/>
+            <input variable="share"/>
+            <input variable="cost"/>
+            <assign variable="amtinvested" expression="share*cost"/>
+            <output expression="&quot;Your investment in&quot; &amp;ticker" newline="True"/>
+            <output expression="&quot;is worth&quot; &amp;amtinvested" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
