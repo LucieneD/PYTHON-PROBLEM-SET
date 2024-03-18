@@ -1,0 +1,12 @@
+#THIS PROGRAM WILL COMPUTE THE DISCOUNT COST OF A CAR
+print ("Enter the make of the car")
+make = input()
+print ("Enter the model of the car")
+model = input()
+print ("Enter the msrp or sticker price") 
+msrp = input()
+print ("Enter the discount percent in decemal form")
+discount = input()
+discounted = float(msrp) * float(discount)
+final = float(msrp) - float(discounted)
+print ("The" + make + model + "final cost is" + str(final))
