@@ -1,0 +1,10 @@
+Doobay
+35000
+Neu
+55000
+Smith
+20000
+Rand
+60000
+Davis
+1000000

@@ -1,0 +1,15 @@
+tshirt
+10
+5
+pants
+10
+3
+shoes
+4
+100
+purse
+3
+200
+sunnies
+5
+10
